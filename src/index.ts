@@ -1,13 +1,13 @@
-import Koa, { Context } from 'koa';
+import express from 'express';
 
-const app = new Koa();
+const app = express();
 
-app.use((ctx: Context) => {
-  ctx.body = 'hello, Jacob!!';
+app.get('/', (req, res) => {
+  res.send('hi, jocob!');
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Listening to port ${PORT}`);
+  console.log(`Listening on port ${PORT}`);
 });

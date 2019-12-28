@@ -16,7 +16,7 @@ npm i
 
 ## :mag: Thchnical Skills
 
-Node.js, Typescript, Javacript, Koa, jest, eslint, prettier, git,
+Node.js, Typescript, Javacript, Express, jest, eslint, prettier, git,
 
 ## :pray: Contributing
 
