@@ -1,41 +1,43 @@
 {
-    "name": "admin-app-api",
-    "version": "0.1.0",
-    "description": "admin-app's api server",
-    "main": "index.js",
-    "scripts": {
-        "start": "nodemon app.js",
-        "test": "NODE_ENV=test jest"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/JungKyuHyun/Admin-project-api.git"
-    },
-    "author": "JungKyuHyun",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/JungKyuHyun/Admin-project-api/issues"
-    },
-    "homepage": "https://github.com/JungKyuHyun/Admin-project-api#readme",
-    "devDependencies": {
-        "@types/jest": "^24.0.25",
-        "@types/node": "^13.1.1",
-        "@types/uuid": "^3.4.6",
-        "@typescript-eslint/parser": "^2.13.0",
-        "eslint": "^6.8.0",
-        "eslint-config-prettier": "^6.9.0",
-        "jest": "^24.9.0",
-        "nodemon": "^2.0.2",
-        "prettier": "^1.19.1",
-        "ts-jest": "^24.2.0",
-        "typescript": "^3.7.4"
-    },
-    "dependencies": {
-        "axios": "^0.19.0",
-        "bcrypt": "^3.0.7",
-        "cookie-parser": "^1.4.4",
-        "dotenv": "^8.2.0",
-        "koa": "^2.11.0",
-        "uuid": "^3.3.3"
-    }
+  "name": "admin-app-api",
+  "version": "0.1.0",
+  "description": "admin-app's api server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JungKyuHyun/Admin-project-api.git"
+  },
+  "author": "JungKyuHyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JungKyuHyun/Admin-project-api/issues"
+  },
+  "homepage": "https://github.com/JungKyuHyun/Admin-project-api#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.7",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "ts-node": "^8.5.4",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/koa": "^2.11.0",
+    "@types/node": "^13.1.1",
+    "@types/uuid": "^3.4.6",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
 }
