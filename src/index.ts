@@ -1,13 +1,13 @@
-import { Context } from 'koa';
-
-const Koa = require('koa');
+import Koa, { Context } from 'koa';
 
 const app = new Koa();
 
 app.use((ctx: Context) => {
-  ctx.body = 'hello';
+  ctx.body = 'hello, Jacob!!';
 });
 
-app.listen(4000, () => {
-  console.log('Listening to port 4000');
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+  console.log(`Listening to port ${PORT}`);
 });
