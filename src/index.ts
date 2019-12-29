@@ -1,4 +1,5 @@
 import express from 'express';
+import morgan from 'morgan';
 
 const app = express();
 
@@ -6,8 +7,19 @@ app.get('/', (req, res) => {
   res.send('hi, jocob!');
 });
 
-const PORT = process.env.PORT || 3000;
+/**
+ * @description Set App
+ */
+app.set('port', process.env.PORT || 3000);
 
-app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
+/**
+ * @description Add Midleware
+ */
+app.use(morgan('dev'));
+
+/**
+ * @description Start Server
+ */
+app.listen(app.get('port'), () => {
+  console.log(`Listening on port ${app.get('port')}`);
 });
