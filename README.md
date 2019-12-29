@@ -14,6 +14,20 @@ Admin-app에서 사용되는 API 서버
 npm i
 ```
 
+## :mag_right: Directory Structure
+
+```
+└── src
+    ├── config
+    ├── models
+    ├── passport
+    └── routes
+
+> tree -N -L 2 -d -I "node_modules|tests"
+```
+
+But, there is a possibility that it will change.
+
 ## :mag: Thchnical Skills
 
 Node.js, Typescript, Javacript, Express, jest, eslint, prettier, git,
