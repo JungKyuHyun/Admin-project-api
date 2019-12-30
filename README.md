@@ -19,6 +19,8 @@ npm i
 ```
 └── src
     ├── config
+    ├── middlewares
+    ├── migration
     ├── models
     ├── passport
     └── routes
@@ -30,7 +32,7 @@ But, there is a possibility that it will change.
 
 ## :mag: Thchnical Skills
 
-Node.js, Typescript, Javacript, Express, jest, eslint, prettier, git,
+Node.js, Typescript, Javacript, Express, TypeORM, jest, eslint, prettier, git,
 
 ## :pray: Contributing
 
