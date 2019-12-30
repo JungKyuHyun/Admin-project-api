@@ -1,12 +1,14 @@
 import express from 'express';
 import morgan from 'morgan';
+import dotenv from 'dotenv';
 
+dotenv.config();
 const app = express();
 
 app.get('/', (req, res) => {
   res.send('hi, jocob!');
 });
-
+console.log(process.env.JWT_SECRET);
 /**
  * @description Set App
  */

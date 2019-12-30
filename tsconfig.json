@@ -29,7 +29,8 @@
     "esModuleInterop": true,
     // "sourceRoot": "",                      /* Specify the location where debugger should locate TypeScript files instead of source locations. */
     // "inlineSourceMap": true,               /* Emit a single file with source maps instead of having a separate file. */
-    "experimentalDecorators": true
-    // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    /* Enables experimental support for emitting type metadata for decorators. */
   }
 }
