@@ -34,6 +34,12 @@ But, there is a possibility that it will change.
 
 Node.js, Typescript, Javacript, Express, TypeORM, jest, eslint, prettier, git,
 
+## :octocat: Branching Stategy
+
+We use `github branching stategy`.
+
+![admin-project-github-flow](https://user-images.githubusercontent.com/42884032/71760425-d51a5680-2f00-11ea-9493-da95c9b7fd84.jpg)
+
 ## :pray: Contributing
 
 Please PR.
