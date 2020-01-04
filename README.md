@@ -38,6 +38,10 @@ Node.js, Typescript, Javacript, Express, TypeORM, jest, eslint, prettier, git,
 
 Please PR.
 
+## :trident: Collaboraters
+
+정규현([JungKyuHyun](https://github.com/JungKyuHyun)), 고정완([ghojeong](https://github.com/ghojeong))
+
 ## :eyes: See also
 
 Development Blog: https://code-masterjung.tistory.com/
