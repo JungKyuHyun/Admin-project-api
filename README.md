@@ -4,7 +4,7 @@
 
 Admin-app에서 사용되는 API 서버
 
-## :clock3: Project period
+## :clock3: Project Period
 
 2019-12-28 ~ in progress
 
