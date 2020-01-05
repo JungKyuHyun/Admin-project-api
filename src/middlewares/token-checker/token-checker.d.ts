@@ -1,9 +1,9 @@
 import { Request } from 'express';
 
 /**
- * @description 추가 타입 정의
+ * @description {string | object} 디코드 추가 타입 정의
  */
 
-export default interface DecodedRequest extends Request {
+export interface DecodedRequest extends Request {
   decoded: string | object;
 }
