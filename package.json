@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "start": "ts-node src/index.ts",
-    "test": "NODE_ENV=test jest"
+    "test": "NODE_ENV=test jest",
+    "eslint": "eslint 'src/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -38,11 +39,14 @@
     "@types/jest": "^24.0.25",
     "@types/jsonwebtoken": "^8.3.5",
     "@types/morgan": "^1.7.37",
-    "@types/node": "^13.1.1",
+    "@types/node": "^13.1.4",
     "@types/uuid": "^3.4.6",
-    "@typescript-eslint/parser": "^2.13.0",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
+    "husky": "^3.1.0",
     "jest": "^24.9.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",

@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import { Response, NextFunction } from 'express';
-import DecodedRequest from './token-checker.d';
+import { DecodedRequest } from './token-checker.d';
 
 /**
  * @description Check jwt token
