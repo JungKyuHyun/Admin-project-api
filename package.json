@@ -21,7 +21,7 @@
   "homepage": "https://github.com/JungKyuHyun/Admin-project-api#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "class-validator": "^0.11.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
