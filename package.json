@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/JungKyuHyun/Admin-project-api#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bcrypt": "^3.0.7",
     "class-validator": "^0.11.0",
     "cookie-parser": "^1.4.4",
